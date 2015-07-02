@@ -6,7 +6,7 @@ relative_permalinks: true
 
 # Setup
 title:               Shiny Dinosaur
-tagline:             ""
+tagline:             some personal musings
 url:                 http://shinydinosaur.github.io
 paginate:            1
 baseurl:             http://shinydinosaur.github.io
