@@ -30,4 +30,4 @@ defaults:
       path: ""
       type: "posts"
     values:
-      permalink: short-urls-jekyll
+      permalink: "/:title"
