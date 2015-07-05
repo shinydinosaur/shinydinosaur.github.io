@@ -6,7 +6,7 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Shiny Dinosaur
+title:            The Shiny Dinosaur
 tagline:          'some personal musings'
 description:      ''
 url:              http://shinydinosaur.github.io
@@ -16,6 +16,9 @@ author:
   url:            http://shinydinosaur.github.io
 
 paginate:         1
+
+# Custom vars
+version:          2.0.0
 
 github:
   repo:           https://github.com/shinydinosaur/shinydinosaur.github.io
