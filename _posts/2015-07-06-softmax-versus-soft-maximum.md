@@ -1,15 +1,18 @@
 ---
 layout: post
-title: Softmax versus Soft-Maximum
+title: "Softmax versus Soft-Maximum"
 comments: true
 published: false
 ---
 
 
 
+
 <div class="message">
-  Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
+  Diving into the difference between what deep-learning people call a "softmax" and what optimization people call a "softmax" or a "soft-maximum".
 </div>
+
+
 
 Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. *Aenean eu leo quam.* Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
 
