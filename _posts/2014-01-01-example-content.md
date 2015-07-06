@@ -18,7 +18,7 @@ Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, na
 Etiam porta **sem malesuada magna** mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.
 
 ## MathJax ##
-$$E=mc^2$$
+$$E_1=mc^2$$
 
 ## Inline HTML elements
 
