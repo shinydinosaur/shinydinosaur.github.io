@@ -6,6 +6,7 @@ published: true
 ---
 
 
+
 <div class="message">
   Diving into the difference between what deep-learning people call a "softmax" and what optimization people call a "softmax" or a "soft-maximum".
 </div>
@@ -15,6 +16,8 @@ In deep learning, there is an often-used function called a "softmax". Contrary t
 
 $$\sigma(z)_j = \frac{e^{z_j}}{\sum_{k=1}^{K}e^{z_k}}$$
 
-For $$j=1\dots K$$.
+For $$j=1\dots K$$. What this means in practice is that the value of the softmax function will be maximal for the 
+
+
 
 ## Soft-Maximum
