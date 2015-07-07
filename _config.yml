@@ -1,7 +1,7 @@
 # Dependencies
-#markdown:         redcarpet
+markdown:         redcarpet
 # For MathJax
-markdown:         kramdown
+#markdown:         kramdown
 pygments:         true
 
 # Permalinks
