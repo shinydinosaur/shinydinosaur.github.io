@@ -21,7 +21,7 @@ $$\sigma(z)_j = \frac{e^{z_j}}{\sum_{k=1}^{K}e^{z_k}}$$
 Each output of the softmax is the predicted probability of the \\(j\\)'th class. The softmax's largest component will therefore be associated with the class \\(j\\) that has the largest probability, or the argmax class. Note that \\(\sigma(z)\\) does not return the maximum value of its input vector \\(z\\) like one would expect from a true "max" function, so the naming convention here is pretty confusing.
 
 ## Soft-Maximum (a.k.a the optimization softmax)
-Optimization people have a whole other story to tell. It turns out that there IS a nice, differentiable, soft version of a max function. They like to call it a "softmax" (which does make sense), but we will call it a soft-maximum to avoid a naming overload. A nice explanation (with pictures!) can be found [in this blog post](http://www.johndcook.com/blog/2010/01/13/soft-maximum/) and this is the gist of it:
+Optimization people have a whole other story to tell. It turns out that there *is* a nice, differentiable, soft version of a max function. They like to call it a "softmax" (which does make sense), but we will call it a soft-maximum to avoid a naming overload. A nice explanation (with pictures!) can be found [in this blog post](http://www.johndcook.com/blog/2010/01/13/soft-maximum/) and this is the gist of it:
 
 The regular version of \\(\max(a,b)\\) is not differentiable and therefore a royal pain to use in function optimizations. Instead, lets assume without loss of generality that \\(a \gt b\\) and observe the following soft version of the maximum:
 
