@@ -8,9 +8,12 @@ published: false
 
 
 
+
 <div class="message">
   Diving into the difference between what deep-learning people call a "softmax" and what optimization people call a "softmax" or a "soft-maximum".
 </div>
+
+In deep learning, there is an often-used function which we call a "softmax". Contrary to its name, it does not perform a max operation but is really a soft form of an argmax over its inputs. According to the [Wikipedia](https://en.wikipedia.org/wiki/Softmax_function) definition, if $$z$$ is a k-dimensional vector of arbitrary real values, then the outout of the softmax, $$/sigma(z)$$ is a k-dimensional vector of real values in $$(0,1)$$.
 
 
 
