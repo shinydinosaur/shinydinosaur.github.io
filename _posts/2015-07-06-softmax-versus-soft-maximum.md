@@ -31,7 +31,7 @@ If \\(a \gt b\\) then we can play the following game and end up with an equivale
 
 $$\log(e^{a-a}+e^{b-a})+a$$
 
-Now \\((e^{a-a}==1\\)) and since \\(a \gt b\\) we know that \\((e^{b-a}\lt 1\\)). This means that the whole left hand side of the formula is bounded:
+Now \\(e^{a-a}==1\\) and since \\(a \gt b\\) we know that \\(e^{b-a}\lt 1\\). This means that the whole left hand side of the formula is bounded:
 
 $$0 \lt \log(e^{a-a}+e^{b-a}) \lt \log 2$$
 
