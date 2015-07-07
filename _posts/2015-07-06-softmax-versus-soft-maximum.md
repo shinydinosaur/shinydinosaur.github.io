@@ -2,7 +2,7 @@
 layout: post
 title: "Softmax versus Soft-Maximum"
 comments: true
-published: false
+published: true
 ---
 
 <div class="message">
