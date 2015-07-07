@@ -2,8 +2,9 @@
 layout: post
 title: Example content
 comments: true
-published: false
+published: true
 ---
+
 
 
 
