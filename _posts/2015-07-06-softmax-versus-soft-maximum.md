@@ -27,6 +27,21 @@ The regular version of \\(\max(a,b)\\) is not differentiable and therefore a roy
 
 $$\log(e^a+e^b)$$
 
-If \\(a \gt b\\) then we play the following game and end up with an equivalent formula:
+If \\(a \gt b\\) then we can play the following game and end up with an equivalent formula:
 
 $$\log(e^{a-a}+e^{b-a})+a$$
+
+Now \\((e^{a-a}==1\\)) and since \\(a \gt b\\) we know that \\((e^{b-a}\lt 1\\)). This means that the whole left hand side of the formula is bounded:
+
+$$0 \lt \log(e^{a-a}+e^{b-a}) \lt \log 2$$
+
+And therefore the whole soft-maximum is less than \\(\log 2\\) away from \\(a\\), the maximum over all of its inputs. a.k.a:
+
+$$\log(e^a+e^b) < a + \log 2 < \max(a,b) + \log 2$$
+
+Pretty neat, no? And all of this with a fully differentiable function.
+
+
+
+
+
