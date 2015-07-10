@@ -30,7 +30,7 @@ ipython notebook --no-browser
 ssh -NL 8888:localhost:8888 [YOUR SEVER NAME]
 {% endhighlight %}
 2. Start a browser and point it to:
-{% endhighlight %}
+{% highlight js %}
 http://localhost:8888/
 {% endhighlight %}
 
