@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<br/>
+<br/>
+<title>A Century of Portraits</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+<!-- jQuery -->
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!-- Bootstrap -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="../../styles/main.css"/>
+</head>
+<body>
+
+<div class="container">
+<div class="row">
+	<div class="col-md-1 left-column">
+	</div>
+
+	<div class="col-md-10">
+		<div class="page-header">
+			<h1 class="text-center">A Century of Portraits:<br>
+        A Visual Historical Record of American High School Yearbooks</h1>
+		</div>
+
+		<p>
+    <figure class="figure">
+      <img src="images/decade_averages_labelled.png" class="img-responsive center-block" alt="decade average images for the 20th century">
+      <figcaption class="figure-caption">Average images of high school students for each decade of the 20th century.</figcaption>
+    </figure>
+		</p>
+
+    <h2>Abstract</h2>
+    <p>
+      Many details about our world are not captured in written records because they are too mundane or too abstract to describe in words. Fortunately, since the invention of the camera, an ever-increasing number of photographs capture much of this otherwise lost information. This plethora of artifacts documenting our “visual culture” is a treasure trove of knowledge as yet untapped by historians. We present a dataset of 37,921 frontal-facing American high school yearbook photos that allow us to use computation to glimpse into the historical visual record too voluminous to be evaluated manually. The collected portraits provide a constant visual frame of reference with varying content. We can therefore use them to consider issues such as a decade’s defining style elements, or trends in fashion and social norms over time. We demonstrate that our historical image dataset may be used together with weakly-supervised data-driven techniques to perform scalable historical analysis of large image corpora with minimal human effort, much in the same way that large text corpora together with natural lan- guage processing revolutionized historians’ workflow. Furthermore, we demonstrate the use of our dataset in dating grayscale portraits using deep learning methods.
+    </p>
+
+   <h2>People</h2>
+    <ul class="list-unstyled">
+      <li><a href="http://www.eecs.berkeley.edu/~shiry/">Shiry Ginosar</a></dd>
+      <li><a href="http://www.linkedin.com/in/krakelly">Kate Rakelly</a></dd>
+      <li><a href="http://www.sarahmsachs.com">Sarah Sachs</a></dd> (Brown University)
+      <li><a href="http://www.linkedin.com/pub/brian-yin/86/143/b83">Brian Yin</a></dd>
+      <li><a href="http://www.eecs.berkeley.edu/~efros/">Alexei A. Efros</a></dd>
+    </ul>
+
+ <h2>Paper</h2>
+
+    <ul class="media-list, citations">
+    <li class="media" id="yearbooks">
+        <a class="pull-left" href="../../publications/Ginosar15_Yearbooks.pdf">
+            <img class="media-object img-responsive img-thumbnail" src="images/Ginosar15_yearbooks.png" alt="hair fashions per decade" width="200">
+        </a>
+        <div class="media-body">
+            <h4 class="media-heading">A Century of Portraits: A Visual Historical Record of American High School Yearbooks</h4>
+            <p>
+              <strong>Shiry Ginosar</strong>, Kate Rakelly, Sarah Sachs, Brian Yin, Alexei A. Efros <span class="cite-title">A Century of Portraits: A Visual Historical Record of American High School Yearbooks</span>, <strong>To Appear in</strong> Extreme Imaging Workshop, International Conference on Computer Vision, ICCV 2015. <a href="../../publications/Ginosar15_Yearbooks.pdf">PDF</a>, <a href="#yearbooks" role="button" data-toggle="collapse" data-target="#collapse-yearbooks" aria-expanded="false" aria-controls="collapse">BibTeX</a>
+              <div class="collapse" id="collapse-yearbooks">
+              <div class="well">
+                @article{ginosar2015century,<br>
+                &nbsp;&nbsp;title={A Century of Portraits: A Visual Historical Record of American High School Yearbooks},<br>
+                &nbsp;&nbsp;author={Ginosar, Shiry and Rakelly, Kate and Sachs, Sarah and Yin, Brian and Efros, Alexei A},<br>
+                &nbsp;&nbsp;journal={arXiv preprint arXiv:1511.02575},<br>
+                &nbsp;&nbsp;year={2015}<br>
+                }
+              </div>
+              </div>
+            </p>
+        </div>
+    </li>
+  </ul>
+
+    <h2>Sample Results</h2>
+    <p>
+    <figure class="figure">
+      <img src="images/disc_decades_detail.png" class="img-responsive" alt="top female hairstyle trends for the 1960s and 1970s">
+      <figcaption class="figure-caption">Discriminative clusters of high school girls’ styles from the 1960's and 1970's. The left-most entry in each row displays the cluster average. Note that the clusters correspond to the quintessential hair and accessory styles of each decade: The bob, “winged” flip, bubble cut and signature glasses of the 60's. The long hair, Afros and bouffants of the 70's. These fashions emerge from the data in a weakly-supervised, data-driven process.</figcaption>
+    </figure>
+    <figure class="figure">
+      <img src="images/all_avg_lip_curve_5yr_std.png" class="img-responsive" alt="smiles over the years">
+      <figcaption class="figure-caption">Smiles increasing over time, but women always smile more than men: Male and female Average lip curvature by year with one standard deviation error bars.</figcaption>
+    </figure>
+    </p>
+
+  <h2>Dataset</h2>
+  <p>
+    The <a href="https://drive.google.com/file/d/0B9hOqmRZxaXqb2xSTGhsakk3Z3M/view?usp=sharing">Yearbook Dataset</a> of frontal-facing American high-school seniors from 1905 to 2013. All faces are aligned using an affine transformation in a process described in the paper.
+  </p>
+
+  <h2>Trained Dating Models</h2>
+  <p>
+    <a href="http://caffe.berkeleyvision.org/">Caffe</a> trained dating models on <a href="https://github.com/BVLC/caffe/wiki/Model-Zoo#yearbook-photo-dating">Model Zoo</a>.
+  </p>
+
+  <!-- h2>Additional Materials</h2 -->
+
+  <h2>Popular Press</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <a href="https://www.washingtonpost.com/news/wonk/wp/2015/12/01/researchers-have-discovered-a-surprising-reason-we-smile-in-photos/">
+        <img class="img-responsive" src="images/press/washington_post.svg" alt="washington post logo">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="http://www.today.com/health/smile-or-not-smile-evolution-faces-photos-over-100-years-t59016">
+        <img class="img-responsive" src="images/press/Today_logo_2013.png" alt="today show logo" width="100">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="http://www.technologyreview.com/view/543871/data-mining-reveals-how-smiling-evolved-during-a-century-of-yearbook-photos/">
+        <img class="img-responsive" src="images/press/logo-mittr-black.png" alt="MIT technology review logo" width="200">
+      </a>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-md-4">
+      <a href="http://www.wired.co.uk/news/archive/2015-11/24/evolution-of-smiles-data-mining">
+        <img class="img-responsive" src="images/press/2000px-Wired_logo.svg.png" alt="wired logo" width="200">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="http://www.smh.com.au/technology/sci-tech/the-evolution-of-the-smile-captured-in-100-years-of-yearbook-photos-20151127-gl9jhv.html">
+        <img class="img-responsive" src="images/press/1000px-The_Sydney_Morning_Herald_logo.svg.png" alt="the sydney morning herald logo">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="http://petapixel.com/2015/11/27/this-is-how-smiles-in-yearbook-photos-have-changed-over-the-past-100-years/">
+        <img class="img-responsive" src="images/press/petapixellogo.png" alt="petapixel logo" width="200">
+      </a>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-md-4">
+      <a href="http://www.engadget.com/2015/11/27/yearbook-photos-evolution/">
+        <img class="img-responsive" src="images/press/engadget.png" alt="engadget logo" width="200">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="http://www.refinery29.com/2015/11/98385/smiling-evolution-photography-yearbook-photos">
+        <img class="img-responsive" src="images/press/r29-logo-b.svg" alt="refinery 29 logo" width="100">
+      </a>
+    </div>
+  </div>
+
+  <h2>Funding</h2>
+  <p>
+    This material is based upon work supported by the NSF Graduate Research Fellowship DGE 1106400, ONR MURI N000141010934 and an NVidia hardware grant.
+  </p>
+
+  <h2>See Also</h2>
+  <p>
+    Developed concurrently and independent from our work, Prof. <a href="http://cs.uky.edu/~jacobs/">Nathan Jacob</a>'s group at the University of Kentucky also proposed using yearbook data for <a href="http://cs.uky.edu/~jacobs/papers/salem2016f2y.pdf">dating images</a>.
+  </p>
+
+	</div> <!-- middle column -->
+
+<div class="col-md-1">
+	<!-- empty room saver on right -->
+</div>
+
+</div>
+<footer>
+  <br/>
+  <br/>
+</footer>
+</div>
+</body>
+</html>
