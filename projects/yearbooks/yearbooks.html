@@ -74,33 +74,48 @@
   </ul>
 
     <h2>Sample Results</h2>
+    <h3>The Top Trends of Each Decade</h3>
     <p>
     <figure class="figure">
-      <img src="images/disc_decades_detail.png" class="img-responsive" alt="top female hairstyle trends for the 1960s and 1970s">
+      <img src="images/disc_decades_detail.png" class="img-responsive" alt="top female hairstyle trends for the 1960s and 1970s" width=900>
       <figcaption class="figure-caption">Discriminative clusters of high school girls’ styles from the 1960's and 1970's. The left-most entry in each row displays the cluster average. Note that the clusters correspond to the quintessential hair and accessory styles of each decade: The bob, “winged” flip, bubble cut and signature glasses of the 60's. The long hair, Afros and bouffants of the 70's. These fashions emerge from the data in a weakly-supervised, data-driven process.</figcaption>
     </figure>
+    </p>
+    <br>
+    <h3>The Evolution of Smiles in Photographs</h3>
+         <object id="flashObj" width="480" height="270" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,47,0"><param name="movie" value="http://c.brightcove.com/services/viewer/federated_f9?isVid=1&isUI=1" /><param name="bgcolor" value="#FFFFFF" /><param name="flashVars" value="videoId=4650035187001&linkBaseURL=http%3A%2F%2Fwww.slate.com%2Fblogs%2Fthe_vault%2F2015%2F12%2F07%2Fhistory_of_the_american_yearbook_photo.html&playerID=58264559001&playerKey=AQ~~,AAAAAASoY90~,_gW1ZHvKG_0UvBsh7aZU7MXZe77OcsGq&domain=embed&dynamicStreaming=true" /><param name="base" value="http://admin.brightcove.com" /><param name="seamlesstabbing" value="false" /><param name="allowFullScreen" value="true" /><param name="swLiveConnect" value="true" /><param name="allowScriptAccess" value="always" /><embed src="http://c.brightcove.com/services/viewer/federated_f9?isVid=1&isUI=1" bgcolor="#FFFFFF" flashVars="videoId=4650035187001&linkBaseURL=http%3A%2F%2Fwww.slate.com%2Fblogs%2Fthe_vault%2F2015%2F12%2F07%2Fhistory_of_the_american_yearbook_photo.html&playerID=58264559001&playerKey=AQ~~,AAAAAASoY90~,_gW1ZHvKG_0UvBsh7aZU7MXZe77OcsGq&domain=embed&dynamicStreaming=true" base="http://admin.brightcove.com" name="flashObj" width="480" height="270" seamlesstabbing="false" type="application/x-shockwave-flash" allowFullScreen="true" allowScriptAccess="always" swLiveConnect="true" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></embed></object>
+    <p>
+      Video courtesy of <a href="http://www.slate.com/">Slate.com</a>
+    </p>
+    <p>
     <figure class="figure">
-      <img src="images/all_avg_lip_curve_5yr_std.png" class="img-responsive" alt="smiles over the years">
-      <figcaption class="figure-caption">Smiles increasing over time, but women always smile more than men: Male and female Average lip curvature by year with one standard deviation error bars.</figcaption>
+      <img src="images/all_avg_lip_curve_5yr_std.png" class="img-responsive" alt="smiles over the years" width=700>
+      <figcaption class="figure-caption">Smiles increasing over time, but women always smile more than men: Male and female Average lip curvature by year with one STD error bars.</figcaption>
     </figure>
     </p>
 
   <h2>Dataset</h2>
-  <p>
-    The <a href="https://drive.google.com/file/d/0B9hOqmRZxaXqb2xSTGhsakk3Z3M/view?usp=sharing">Yearbook Dataset</a> of frontal-facing American high-school seniors from 1905 to 2013. All faces are aligned using an affine transformation in a process described in the paper.
-  </p>
-  <p>  
-    If you would like to obtain other formats of the data (raw images, non-frontal facing portraits etc) or, alternatively, if you would like to <strong>contribute</strong> more yearbook data send us an email to: &lt;shiry <span class="grey">at</span> eecs <span class="grey">dot</span> berkeley <span class="grey">dot</span> edu&gt;.
-  </p>
-  <p>
-  </p>
-
+  <ul class="media-list, citations">
+    <li class="media" id="yearbook_dataset">
+        <a class="pull-left" href="https://dl.dropboxusercontent.com/u/20798691/Homepage/Datasets/Yearbooks/faces_aligned_small_mirrored_co_aligned_cropped_cleaned.tar.gz">
+            <img class="media-object img-responsive img-thumbnail" src="images/dropbox.svg" alt="yearbook dataset" width="50">
+        </a>
+        <div class="media-body">
+            <h4 class="media-heading">The Yearbook Dataset</h4>
+            <p>
+              The <a href="https://dl.dropboxusercontent.com/u/20798691/Homepage/Datasets/Yearbooks/faces_aligned_small_mirrored_co_aligned_cropped_cleaned.tar.gz">Yearbook Dataset</a> of frontal-facing American high-school seniors from 1905 to 2013 is hosted on space donated by <a href="https://www.dropbox.com/">Dropbox</a>. All faces are aligned using an affine transformation in a process described in the paper.
+            </p>
+            <p>  
+              If you would like to obtain other formats of the data (raw images, non-frontal facing portraits etc) or, alternatively, if you would like to <strong>contribute</strong> more yearbook data send us an email to: &lt;shiry <span class="grey">at</span> eecs <span class="grey">dot</span> berkeley <span class="grey">dot</span> edu&gt;.
+          </p>
+        </div>
+    </li>
+  </ul>
+  
   <h2>Trained Dating Models</h2>
   <p>
     <a href="http://caffe.berkeleyvision.org/">Caffe</a> trained dating models on <a href="https://github.com/BVLC/caffe/wiki/Model-Zoo#yearbook-photo-dating">Model Zoo</a>.
   </p>
-
-  <!-- h2>Additional Materials</h2 -->
 
   <h2>Popular Press</h2>
   <div class="row">
@@ -110,8 +125,8 @@
       </a>
     </div>
     <div class="col-md-4">
-      <a href="http://www.wired.co.uk/news/archive/2015-11/24/evolution-of-smiles-data-mining">
-        <img class="img-responsive" src="images/press/2000px-Wired_logo.svg.png" alt="wired logo" width="200">
+      <a href="http://www.today.com/health/smile-or-not-smile-evolution-faces-photos-over-100-years-t59016">
+        <img class="img-responsive" src="images/press/Today_logo_2013.png" alt="today show logo" width="100">
       </a>
     </div>
     <div class="col-md-4">
@@ -123,13 +138,27 @@
   <br>
   <div class="row">
     <div class="col-md-4">
-      <a href="http://www.smh.com.au/technology/sci-tech/the-evolution-of-the-smile-captured-in-100-years-of-yearbook-photos-20151127-gl9jhv.html">
-        <img class="img-responsive" src="images/press/1000px-The_Sydney_Morning_Herald_logo.svg.png" alt="the sydney morning herald logo">
+      <a href="http://www.wired.co.uk/news/archive/2015-11/24/evolution-of-smiles-data-mining">
+        <img class="img-responsive" src="images/press/2000px-Wired_logo.svg.png" alt="wired logo" width="200">
       </a>
     </div>
     <div class="col-md-4">
+      <a href="http://www.slate.com/blogs/the_vault/2015/12/07/history_of_the_american_yearbook_photo.html">
+        <img class="img-responsive" src="images/press/slate.png" alt="slate logo" width="200">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="http://www.techtimes.com/articles/110383/20151126/software-reveals-how-smiling-evolved-during-100-years-of-yearbook-photos.htm">
+        <img class="img-responsive" src="images/press/techtimes.png" alt="tech times logo" width="200">
+      </a>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+
+    <div class="col-md-4">
       <a href="http://petapixel.com/2015/11/27/this-is-how-smiles-in-yearbook-photos-have-changed-over-the-past-100-years/">
-        <img class="img-responsive" src="images/press/petapixellogo.png" alt="petapixel logo" width="150">
+        <img class="img-responsive" src="images/press/petapixellogo.png" alt="petapixel logo" width="200">
       </a>
     </div>
     <div class="col-md-4">
@@ -137,14 +166,32 @@
         <img class="img-responsive" src="images/press/engadget.png" alt="engadget logo" width="200">
       </a>
     </div>
+       <div class="col-md-4">
+      <a href="http://www.medicaldaily.com/say-cheese-yearkbook-photos-show-how-our-smiles-have-changed-last-100-years-364212">
+        <img class="img-responsive" src="images/press/medical_daily.gif" alt="medical daily logo" width="200">
+      </a>
+    </div>
   </div>
   <br>
   <div class="row">
     <div class="col-md-4">
-      <a href="http://www.today.com/health/smile-or-not-smile-evolution-faces-photos-over-100-years-t59016">
-        <img class="img-responsive" src="images/press/Today_logo_2013.png" alt="today show logo" width="100">
+      <a href="http://www.netzpiloten.de/algorithmus-fotografie-berkely-studie/">
+        <img class="img-responsive" src="images/press/netzpiloten.png" alt="netzpiloten logo" width="200">
       </a>
     </div>
+    <div class="col-md-4">
+      <a href="http://www.stern.de/panorama/wissen/mensch/portraetfotos-von-1900-bis-heute---evolution-des-laechelns-6578382.html">
+        <img class="img-responsive" src="images/press/stern.svg.png" alt="stern logo" width="200">
+      </a>
+    </div>
+    <div class="col-md-4">
+      <a href="http://www.smh.com.au/technology/sci-tech/the-evolution-of-the-smile-captured-in-100-years-of-yearbook-photos-20151127-gl9jhv.html">
+        <img class="img-responsive" src="images/press/1000px-The_Sydney_Morning_Herald_logo.svg.png" alt="the sydney morning herald logo">
+      </a>
+    </div>
+  </div>
+  <br>
+  <div class="row">
     <div class="col-md-4">
       <a href="http://www.smithsonianmag.com/smart-news/yearbook-photos-show-how-smiles-have-widened-over-decades-180957437/?no-ist">
         <img class="img-responsive" src="images/press/smithsonianmag_logo2.jpg" alt="smithsonian magazine logo" width="80">
@@ -165,6 +212,12 @@
   <h2>See Also</h2>
   <p>
     Developed concurrently and independent from our work, Prof. <a href="http://cs.uky.edu/~jacobs/">Nathan Jacobs</a>' group at the University of Kentucky also proposed using yearbook data for <a href="http://cs.uky.edu/~jacobs/papers/salem2016f2y.pdf">dating images</a>.
+ </p>
+ <p>
+    <a href="http://www.phonozoic.net/">Patrick Feaster</a> from Indiana University Bloomington published a fascinating blog post in 2014 <a href="https://griffonagedotcom.wordpress.com/2014/12/18/say-cheese-using-face-averaging-to-track-the-rise-of-the-photo-smile/">using face averaging in yearbook photographs to track the rise of the photo smile</a>. He also provides several hypotheses on why smiles came to be the norm in portraiture.
+  </p>
+  <p>
+    <a href="https://en.wikipedia.org/wiki/Jason_Salavon">Jason Salavon</a>, an American contemporary artist and an Associate Professor at The University of Chicago, created a piece in 1998 from average images of personally-significant yearbook photographs. In his work titled <a href="http://www.salavon.com/work/Class/">The Class of 1988 & The Class of 1967</a>, he presents averages of all the male and female students of his graduating class of 1988 and contrasts them with averages of the students in his mother's graduating class of 1967 from the same hometown of Fort Worth, Texas.
   </p>
 
 	</div> <!-- middle column -->
