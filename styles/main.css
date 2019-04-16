@@ -1,38 +1,16 @@
 body {
-  background-color: #ffffff;
+  	background-color: #ffffff;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight:300;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1100px;
 }
-
-/*
-div.main {
-  width: 640px;
-  margin: auto;
-}
-*/
 
 .left-column {
   margin: auto;
 }
-/*
-h1 {
-  font-size: 140%;
-}
 
-h2 {
-  margin: 0;
-  margin-top: 1em;
-  border: 0;
-  padding: 0;
-  font-size: 130%;
-}
-
-h3 {
-  margin: 0;
-  margin-top: 0.5em;
-  border: 0;
-  padding: 0;
-  font-size: 110%;
-}
-*/
 span.grey {
   color: #aaaaaa;
 }
