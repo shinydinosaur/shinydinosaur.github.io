@@ -60,9 +60,6 @@
 
 			My research has been covered by <a href="https://www.newyorker.com/magazine/2018/11/12/in-the-age-of-ai-is-seeing-still-believing">The New Yorker</a>, <a href="https://www.wsj.com/articles/deepfake-videos-are-ruining-lives-is-democracy-next-1539595787">The Wall Street Journal</a>, and the <a href="https://www.washingtonpost.com/news/wonk/wp/2015/12/01/researchers-have-discovered-a-surprising-reason-we-smile-in-photos/?noredirect=on&utm_term=.5e52a9d6fa4b">Washington Post</a>, amongst others. My work has been featured on <a href="https://www.pbs.org/video/deepfake-videos-are-getting-terrifyingly-real-xywbdx/">PBS NOVA</a>, exhibited at the <a href="http://www.dmh.org.il/">Israeli Design Museum</a> and is part of the permanent collection of the <a href="https://www.deutsches-museum.de/">Deutsches Museum</a>. My patent-pending research work inspired the founding of a <a href="https://apps.apple.com/us/app/sway-magic-dance/id1441466995">startup</a>. I have been named a <a href="https://publish.illinois.edu/rising-stars/participants/">Rising Star in EECS</a>, and am a recipient of the U.S. National Science Foundation <a href="http://www.nsfgrfp.org/">Graduate Research Fellowship</a>, the California Legislature Grant for graduate studies, and the Samuel Silver Memorial Scholarship Award for combining intellectual achievement in science and engineering with serious humanistic and cultural interests.
 		</p>
-		<p>
-			I am currently on the faculty job market!
-		</p>
 		<br>
 
 		<h2>Selected Publications</h2>
@@ -84,22 +81,49 @@
     		</div>
   		</li>
 		-->
+  <li class="media">
+        <a class="pull-left" href="https://people.eecs.berkeley.edu/~evonne_ng/projects/text2listen/">
+          <img class="media-object img-responsive" src="images/text2listen.gif" alt="predicting listener response from speaker text" width="200">
+        </a>
+        <div class="media-body">
+          <h4 class="media-heading">Can Language Models Learn to Listen?
+          <p>
+         <small>
+          <em>
+            Squeezing lexical semantic "juice" out of large language models.
+          </em>
+          <br>
+          Given only the spoken text of a speaker, we synthesize a realistic, synchronous listener. Our text-based model responds in an emotionally-appropriate manner when lexical semantics is crucial. For example, when it is not appropriate to smile despite a speaker's uneasy laughter. Technically, we squeeze out as much semantic "juice" as possible from a pretrained large language model by finetuning it to autoregressively generate realistic 3D listener motion in response to the input transcript.
+          <br>
+          <strong>Main innovation:</strong> We treat atomic gesture elements as novel language tokens easily ingestible by language models. We can then finetune LLMs to synthesize motion by predicting sequences of these elements.
+        </small>
+          </h4>
+      </p>
+      <p>
+      Evonne Ng*, Sanjay Subramanian*, Dan Klein, Angjoo Kanazawa, Trevor Darrell, and <strong>Shiry Ginosar</strong>,<span class="cite-title"> Can Language Models Learn to Listen?</span>, ICCV 2023. 
+      <a href="https://arxiv.org/abs/2308.10897">PDF</a>,
+<a href="https://www.youtube.com/watch?v=djpSOhdIU8M">Video</a>, <a href="https://people.eecs.berkeley.edu/~evonne_ng/projects/text2listen/">Project Page</a>
+      </li>
+    <br>
+
 	<li class="media">
         <a class="pull-left" href="https://evonneng.github.io/learning2listen/">
-          <img class="media-object img-responsive" src="images/learning2listen.gif" alt="predicting hand shape from body motion" width="200">
+          <img class="media-object img-responsive" src="images/learning2listen.gif" alt="predicting listener response from speaker speech" width="200">
         </a>
         <div class="media-body">
           <h4 class="media-heading">Learning2Listen
           <p>
          <small>
+        <em>
           Learning to respond like a good listener.
+        </em>
           <br>
           Given a speaker, we synthesize a realistic, synchronous listener. To do this, we learn human interaction 101: the delicate dance of non-verbal communication. We expect good listeners to look us in the eye, synchronize their motion with ours, and mirror our emotions. You can't annotate this! So we must learn from raw data. Technically, we are the first to extend vector-quantization methods to motion synthesis. We show that our novel sequence-encoding VQ-VAE, coupled with a transformer-based prediction mechanism, performs much better than competitive methods for motion generation.
       	</small>
           </h4>
       </p>
       <p>
-      Evonne Ng, Hanbyul Joo, Liwen Hu, Hao Li, Trevor Darrell, Angjoo Kanazawa, and <strong>Shiry Ginosar</strong><span class="cite-title"> Learning to Listen:
+      Evonne Ng, Hanbyul Joo, Liwen Hu, Hao Li, Trevor Darrell, Angjoo Kanazawa, and <strong>Shiry Ginosar</strong>,<span class="cite-title"> Learning to Listen:
 Modeling Non-Deterministic Dyadic Facial Motion</span>, CVPR 2022. 
       <a href="https://arxiv.org/abs/2204.08451">PDF</a>,
 <a href="https://www.youtube.com/watch?v=3CSlKZ5T6DU">Video</a>, <a href="https://evonneng.github.io/learning2listen/">Project Page</a>
@@ -114,7 +138,9 @@ Modeling Non-Deterministic Dyadic Facial Motion</span>, CVPR 2022.
           <h4 class="media-heading">Body2Hands
           <p>
          <small>
+        <em>
           Learning to Infer 3D Hands from Conversational Gesture Body Dynamics.
+        </em>
           <br>
           A novel learned deep prior of body motion for 3D hand shape synthesis and estimation in the domain of conversational gestures. Our model builds upon the insight that body motion and hand gestures are strongly correlated in non-verbal communication settings. We formulate the learning of this prior as a prediction task of 3D hand shape given body motion input alone. 
       	</small>
@@ -154,7 +180,9 @@ Modeling Non-Deterministic Dyadic Facial Motion</span>, CVPR 2022.
           <h4 class="media-heading">Learning to Factorize and Relight a City
           <p>
          <small>
+        <em>
           Disentangle changing factors from permanent ones.
+        </em>
           <br>
           We disentangle outdoor scenes into temporally-varying illumination and permanent scene factors. To facilitate training, we assemble a city-scale dataset of outdoor timelapse imagery from Google Street View Time Machine, where the same locations are captured repeatedly through time. Our learned disentangled factors can be used to manipulate novel images in realistic ways, such as changing lighting effects and scene geometry.
       	</small>
@@ -187,7 +215,9 @@ Modeling Non-Deterministic Dyadic Facial Motion</span>, CVPR 2022.
     	<div class="media-body">
       		<h4 class="media-heading">Learning Individual Styles of Conversational Gesture
           		<p><small>
+                <em>
           			Audio to motion translation.
+              </em>
           			<br>
           			Human speech is often accompanied by hand and arm gestures.
 					Given audio speech input, we generate plausible gestures to go along with the sound.
@@ -219,7 +249,9 @@ Modeling Non-Deterministic Dyadic Facial Motion</span>, CVPR 2022.
         <div class="media-body">
           <h4 class="media-heading">Everybody Dance Now!
           <p><small>
+        <em>
           "Do as I do" motion transfer.
+        </em>
           <br>
           Given a source video of a person dancing we can transfer that performance to a novel (amateur) target after only a few minutes of the target subject performing standard moves. We pose this problem as a per-frame image-to-image translation with spatio-temporal smoothing. Using pose detections as an intermediate representation between source and target, we learn a mapping from pose images to a target subject's appearance. We adapt this setup for temporally coherent video generation including realistic face synthesis.
           </p></small>
@@ -248,7 +280,9 @@ Modeling Non-Deterministic Dyadic Facial Motion</span>, CVPR 2022.
         <div class="media-body">
           <h4 class="media-heading">The Burgeoning Computer-Art Symbiosis
           <p><small>
+          <em>
             "Computers help us understand art. Art helps us teach computers."
+          </em>
           </p></small>
           </h4>
       <p>
@@ -287,7 +321,9 @@ Volume 24 Issue 3, Spring 2018, Pages 30-33. <a href="publications/ginosar_compu
         <div class="media-body">
             <h4 class="media-heading">A Century of Portraits
             <p><small>
+      <em>
         "What makes the 60's look like the 60's?"
+      </em>
         <br>
         Many details about our world are not captured in written records because they are too mundane or too abstract to describe in words. Fortunately, since the invention of the camera, an ever-increasing number of photographs capture much of this otherwise lost information. This plethora of artifacts documenting our “visual culture” is a treasure trove of knowledge as yet untapped by historians. We present a dataset of 37,921 frontal-facing American high school yearbook photos that allow us to use computation to glimpse into the historical visual record too voluminous to be evaluated manually. The collected portraits provide a constant visual frame of reference with varying content. We can therefore use them to consider issues such as a decade’s defining style elements, or trends in fashion and social norms over time.
             </p></small>
