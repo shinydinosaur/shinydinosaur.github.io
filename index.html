@@ -53,7 +53,7 @@
   	I am an Assistant Professor at <a href="https://www.ttic.edu/">TTIC</a> working in computer vision, machine learning, and artificial intelligence. 
     </p>
     <p>
-    <strong>My research asks how artificial systems can develop representations that capture the structure of the world well enough to predict, generalize, and act.</strong>
+    <strong>My research asks how artificial systems can learn useful representations of the world through observation and interaction.</strong>
     </p>
 
     <p>
@@ -67,7 +67,7 @@
 		<p>
       <!--My research focuses on grounded visual understanding. I have contributed to <a href="https://www.youtube.com/watch?v=PCBTZh41Ris">conditional video synthesis</a> in its early stages, introduced data-driven approaches to <a href="https://www.youtube.com/watch?v=xzTE5sobpFY">artifical social intelligence</a>, and developed several methods for<a href="https://shiry.ttic.edu/projects/yearbooks/yearbooks.html">visual data mining</a>. -->
 
-      My work has been covered by <a href="https://www.newyorker.com/magazine/2018/11/12/in-the-age-of-ai-is-seeing-still-believing">The New Yorker</a>, <a href="https://www.wsj.com/articles/deepfake-videos-are-ruining-lives-is-democracy-next-1539595787">The Wall Street Journal</a>, and the <a href="https://www.washingtonpost.com/news/wonk/wp/2015/12/01/researchers-have-discovered-a-surprising-reason-we-smile-in-photos/?noredirect=on&utm_term=.5e52a9d6fa4b">Washington Post</a>, amongst others. It has also been featured on <a href="https://www.pbs.org/video/deepfake-videos-are-getting-terrifyingly-real-xywbdx/">PBS NOVA</a>, exhibited at the <a href="http://www.dmh.org.il/">Israeli Design Museum</a> and is part of the permanent collection of the <a href="https://www.deutsches-museum.de/">Deutsches Museum</a>. My research helped inspire the founding of Sway, a startup later acquired by <a href="https://corp.roblox.com/">Roblox</a>.
+      My work has been covered by <a href="https://www.newyorker.com/magazine/2018/11/12/in-the-age-of-ai-is-seeing-still-believing">The New Yorker</a>, <a href="https://www.wsj.com/articles/deepfake-videos-are-ruining-lives-is-democracy-next-1539595787">The Wall Street Journal</a>, and the <a href="https://www.washingtonpost.com/news/wonk/wp/2015/12/01/researchers-have-discovered-a-surprising-reason-we-smile-in-photos/?noredirect=on&utm_term=.5e52a9d6fa4b">Washington Post</a>, amongst others. It has also been featured on <a href="https://www.pbs.org/video/deepfake-videos-are-getting-terrifyingly-real-xywbdx/">PBS NOVA</a>, exhibited at the <a href="http://www.dmh.org.il/">Israeli Design Museum</a> and is part of the permanent collection of the <a href="https://www.deutsches-museum.de/">Deutsches Museum</a>. My work on Everybody Dance Now and the associated patent led directly to Sway, a startup founded by my co-author and later acquired by <a href="https://corp.roblox.com/">Roblox</a>.
 
 		</p>
     See here for an <a href=bio.html>official bio</a>.
@@ -120,10 +120,10 @@
 
 
   <p>
-We study how intelligent systems can learn useful representations of the world. A central idea in our work is that the difficulty of a learning problem depends critically on the representation in which it is posed. We look for intermediate levels of abstraction that preserve the structure needed for prediction, reasoning, and generalization without requiring us to specify that structure completely in advance.
+We study how artificial systems can learn about the world from observation and experience. We are particularly interested in how the choice of representation makes some problems easier to learn, and how learners can discover useful abstractions without our specifying everything in advance.
 </p>
 <p>
-Our work spans visual prediction and reasoning, behavior and interaction, and learning through intrinsic motivation and action. Looking forward, we are interested in how systems can increasingly discover useful representational structure for themselves by predicting and interacting with their environment.
+Our research draws on computer vision and machine learning, as well as questions from psychology and neuroscience. We develop computational models both to build more capable artificial systems and to investigate how people and other animals learn.
   </p>
 
 
@@ -189,10 +189,10 @@ Our work spans visual prediction and reasoning, behavior and interaction, and le
           <p>
             <small>
               <em>
-                Transferring structure between brains and vision
+                Learning from images to help interpret neural recordings
               </em>
               <br>              
-               Can structure learned from abundant visual data transfer to neural recordings where paired observations are scarce? We learn a shared latent space between visual representations and neural population responses that supports neural-to-visual decoding, visual-to-neural prediction, generalization across subjects and recording conditions, and interpretable analysis of neuronal selectivity.
+               Neural recordings contain far fewer examples than the image collections used to train vision models. We connect the two through a shared representation learned from limited image–response pairs and abundant unpaired images. The model translates between neural activity and visual content and helps us investigate which visual patterns particular neurons respond to.
             </small>
           </p>
           </h4>
@@ -259,7 +259,7 @@ Our work spans visual prediction and reasoning, behavior and interaction, and le
                 A common representation for diverse motion
               </em>
               <br>              
-               Dense point trajectories provide a category-agnostic representation of motion, turning forecasting across diverse species, morphologies, and environments into a common prediction problem.
+               How can one model forecast the movements of animals with very different bodies? We represent motion through the paths that points on an animal follow over time. This lets us learn across species without specifying a skeleton or body model for each one.
             </small>
           </p>
           </h4>
@@ -278,7 +278,7 @@ Our work spans visual prediction and reasoning, behavior and interaction, and le
           <p>
             <small>
               <em>
-                Do visual models represent large-scale spatial structure?
+                Can a model piece together the layout of a kilometer-long route?
               </em>
               <br>              
                Vision-language models are much better at spatial questions that can be solved through local recognition than at integrating observations along a route into a coherent representation of large-scale geometry. KilometerVision tests spatial understanding over real-world videos spanning distances up to 1 km.
@@ -290,7 +290,7 @@ Our work spans visual prediction and reasoning, behavior and interaction, and le
             Yang, Tyler Zhu, Joseph Heyward, Tengda Han, <strong>Shiry Ginosar</strong>, Chen
             Sun, Dima Damen, Simon Osindero, Noah Snavely, Simon Lynen, João
             Carreira, Viorica Pătrăucean. <span class="cite-title">KilometerVision: A New Frontier for Large-Scale
-Spatial Intelligence in VLMs</span>, ECCV 2026. PDF coming soon!
+Spatial Intelligence in VLMs</span>, ECCV 2026. <a href="http://arxiv.org/abs/2609.39588">PDF</a>.  
           </p>
         </div>
     </li>
@@ -376,7 +376,7 @@ Philosophical Transactions A., 2026. <a href="https://royalsocietypublishing.org
                 3D Gaussians as a learned mid-level image representation.
               </em>
               <br>  
-            Can we represent images at a level between pixels and explicit semantic or geometric descriptions? We use 3D Gaussian primitives to preserve spatial structure without requiring predefined labels, and learn this representation at scale through masked autoencoding. To our knowledge, this is the first use of 3D Gaussian primitives for large-scale image representation learning.
+            Can reconstructing images through layers of 3D Gaussian primitives help a model learn how a scene is organized into objects and depth? We explore this through masked autoencoding, without explicit object or depth labels.
             </small>
           </p>
           </h4>
@@ -441,7 +441,7 @@ Philosophical Transactions A., 2026. <a href="https://royalsocietypublishing.org
           <p>
           <small>
             <em>
-              Can visual models represent transformations, not just objects?
+              Can a model infer a visual rule and apply it to a new object?
             </em>
             <br>
             Multimodal models can often recognize what changed in a visual scene while struggling to infer the transformation responsible for the change and apply it to a new object. KiVA probes this gap using visual analogies inspired by developmental psychology.
